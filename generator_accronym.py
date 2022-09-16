@@ -1,11 +1,12 @@
-from unittest import result
+text =str(input("donner une chaine de caractere: "))
 
+def gen_accro(chaine):
+    mots = chaine.split()
+    accro = ''
+    for i in mots:
+     accro = accro + str(i[0]).upper()
+    return accro
 
-text=str("donner une chaine de caractere: ")
-def gen_accro(text):
-    mots=text.splite()
-    accro=''
-    for i in mots
-    accro=accro+i(0).upper
-    result=return(accro)
-    
+resultat=gen_accro(text)
+
+print(f"voici l'accronyme {resultat}")
