@@ -4,3 +4,4 @@ Mini Projects python
 2. Generator password
 3. Generator accronym
 4. guess the number
+5. scissor stone paper
